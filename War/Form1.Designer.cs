@@ -42,16 +42,17 @@
             this.playerScoreLabel = new System.Windows.Forms.Label();
             this.cpuScoreLabel = new System.Windows.Forms.Label();
             this.titleLabel = new System.Windows.Forms.Label();
+            this.tieLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // warButton
             // 
             this.warButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.warButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.warButton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.warButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.warButton.ForeColor = System.Drawing.Color.White;
             this.warButton.Location = new System.Drawing.Point(138, 124);
-            this.warButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.warButton.Margin = new System.Windows.Forms.Padding(2);
             this.warButton.Name = "warButton";
             this.warButton.Size = new System.Drawing.Size(59, 45);
             this.warButton.TabIndex = 0;
@@ -63,7 +64,7 @@
             // 
             this.playerCardLabel.BackColor = System.Drawing.Color.White;
             this.playerCardLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.playerCardLabel.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.playerCardLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.playerCardLabel.ForeColor = System.Drawing.Color.Black;
             this.playerCardLabel.Image = ((System.Drawing.Image)(resources.GetObject("playerCardLabel.Image")));
             this.playerCardLabel.Location = new System.Drawing.Point(39, 101);
@@ -77,7 +78,7 @@
             // 
             this.cpuCardLabel.BackColor = System.Drawing.Color.White;
             this.cpuCardLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.cpuCardLabel.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cpuCardLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cpuCardLabel.ForeColor = System.Drawing.Color.Black;
             this.cpuCardLabel.Image = ((System.Drawing.Image)(resources.GetObject("cpuCardLabel.Image")));
             this.cpuCardLabel.Location = new System.Drawing.Point(235, 101);
@@ -89,7 +90,7 @@
             // 
             // playerLabel
             // 
-            this.playerLabel.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.playerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.playerLabel.ForeColor = System.Drawing.Color.White;
             this.playerLabel.Location = new System.Drawing.Point(39, 68);
             this.playerLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -101,7 +102,7 @@
             // 
             // cpuLabel
             // 
-            this.cpuLabel.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cpuLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cpuLabel.ForeColor = System.Drawing.Color.White;
             this.cpuLabel.Location = new System.Drawing.Point(231, 68);
             this.cpuLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -126,7 +127,7 @@
             // backLabel
             // 
             this.backLabel.BackColor = System.Drawing.Color.White;
-            this.backLabel.Location = new System.Drawing.Point(327, 6);
+            this.backLabel.Location = new System.Drawing.Point(325, 2);
             this.backLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.backLabel.Name = "backLabel";
             this.backLabel.Size = new System.Drawing.Size(120, 244);
@@ -170,7 +171,7 @@
             // playerScoreLabel
             // 
             this.playerScoreLabel.BackColor = System.Drawing.Color.White;
-            this.playerScoreLabel.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.playerScoreLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.playerScoreLabel.ForeColor = System.Drawing.Color.Black;
             this.playerScoreLabel.Location = new System.Drawing.Point(363, 101);
             this.playerScoreLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -183,7 +184,7 @@
             // cpuScoreLabel
             // 
             this.cpuScoreLabel.BackColor = System.Drawing.Color.White;
-            this.cpuScoreLabel.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cpuScoreLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cpuScoreLabel.ForeColor = System.Drawing.Color.Black;
             this.cpuScoreLabel.Location = new System.Drawing.Point(363, 187);
             this.cpuScoreLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -205,12 +206,24 @@
             this.titleLabel.Text = "Card War... kind of";
             this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // tieLabel
+            // 
+            this.tieLabel.AutoSize = true;
+            this.tieLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tieLabel.Location = new System.Drawing.Point(147, 66);
+            this.tieLabel.Name = "tieLabel";
+            this.tieLabel.Size = new System.Drawing.Size(35, 25);
+            this.tieLabel.TabIndex = 14;
+            this.tieLabel.Text = "tie";
+            this.tieLabel.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Green;
             this.ClientSize = new System.Drawing.Size(455, 255);
+            this.Controls.Add(this.tieLabel);
             this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.cpuScoreLabel);
             this.Controls.Add(this.playerScoreLabel);
@@ -226,11 +239,12 @@
             this.Controls.Add(this.warButton);
             this.ForeColor = System.Drawing.Color.White;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "War";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -249,6 +263,7 @@
         private System.Windows.Forms.Label playerScoreLabel;
         private System.Windows.Forms.Label cpuScoreLabel;
         private System.Windows.Forms.Label titleLabel;
+        private System.Windows.Forms.Label tieLabel;
     }
 }
 
