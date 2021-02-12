@@ -138,10 +138,10 @@
             // 
             this.recordLabel.BackColor = System.Drawing.Color.Black;
             this.recordLabel.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.recordLabel.Location = new System.Drawing.Point(330, 9);
+            this.recordLabel.Location = new System.Drawing.Point(325, 9);
             this.recordLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.recordLabel.Name = "recordLabel";
-            this.recordLabel.Size = new System.Drawing.Size(115, 40);
+            this.recordLabel.Size = new System.Drawing.Size(120, 40);
             this.recordLabel.TabIndex = 8;
             this.recordLabel.Text = "Win/Loss Record";
             this.recordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -149,10 +149,10 @@
             // pWinsLabel
             // 
             this.pWinsLabel.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pWinsLabel.Location = new System.Drawing.Point(330, 75);
+            this.pWinsLabel.Location = new System.Drawing.Point(325, 76);
             this.pWinsLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.pWinsLabel.Name = "pWinsLabel";
-            this.pWinsLabel.Size = new System.Drawing.Size(115, 25);
+            this.pWinsLabel.Size = new System.Drawing.Size(120, 25);
             this.pWinsLabel.TabIndex = 9;
             this.pWinsLabel.Text = "Player";
             this.pWinsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -160,10 +160,10 @@
             // cWinsLabel
             // 
             this.cWinsLabel.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cWinsLabel.Location = new System.Drawing.Point(330, 161);
+            this.cWinsLabel.Location = new System.Drawing.Point(325, 161);
             this.cWinsLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.cWinsLabel.Name = "cWinsLabel";
-            this.cWinsLabel.Size = new System.Drawing.Size(115, 25);
+            this.cWinsLabel.Size = new System.Drawing.Size(120, 25);
             this.cWinsLabel.TabIndex = 10;
             this.cWinsLabel.Text = "Computer";
             this.cWinsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -173,10 +173,10 @@
             this.playerScoreLabel.BackColor = System.Drawing.Color.White;
             this.playerScoreLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.playerScoreLabel.ForeColor = System.Drawing.Color.Black;
-            this.playerScoreLabel.Location = new System.Drawing.Point(363, 101);
+            this.playerScoreLabel.Location = new System.Drawing.Point(353, 101);
             this.playerScoreLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.playerScoreLabel.Name = "playerScoreLabel";
-            this.playerScoreLabel.Size = new System.Drawing.Size(47, 48);
+            this.playerScoreLabel.Size = new System.Drawing.Size(69, 48);
             this.playerScoreLabel.TabIndex = 11;
             this.playerScoreLabel.Text = "0";
             this.playerScoreLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -186,10 +186,10 @@
             this.cpuScoreLabel.BackColor = System.Drawing.Color.White;
             this.cpuScoreLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cpuScoreLabel.ForeColor = System.Drawing.Color.Black;
-            this.cpuScoreLabel.Location = new System.Drawing.Point(363, 187);
+            this.cpuScoreLabel.Location = new System.Drawing.Point(347, 186);
             this.cpuScoreLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.cpuScoreLabel.Name = "cpuScoreLabel";
-            this.cpuScoreLabel.Size = new System.Drawing.Size(47, 48);
+            this.cpuScoreLabel.Size = new System.Drawing.Size(81, 48);
             this.cpuScoreLabel.TabIndex = 12;
             this.cpuScoreLabel.Text = "0";
             this.cpuScoreLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
